@@ -1,7 +1,7 @@
 <div class="recipe-card">
 <div class="recipe-card-image">
 <a href="{full-link}">
-{image-1}
+<img src="{image-1}" loading="lazy" alt="{title}">
 </a>
 
 <div class="recipe-category-badge">{link-category}</div>
@@ -30,22 +30,22 @@
 <p class="recipe-card-description">{short-story limit="120"}</p>
 
 <div class="recipe-card-meta">
-[xfgiven_cook_time]<span>[xfvalue_cook_time]
+[xfgiven_cook_time]<span>
 <div class="meta-tag time">
 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
 <circle cx="12" cy="12" r="10"></circle>
 <polyline points="12 6 12 12 16 14"></polyline>
 </svg>
-<span>{xfvalue_cook_time} мин</span>
+<span>[xfvalue_cook_time] мин</span>
 </div>
 </span>[/xfgiven_cook_time]
 
-[xfgiven_calories][xfvalue_calories]
+[xfgiven_calories]
 <div class="meta-tag calories">
 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
 <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path>
 </svg>
-<span>{xfvalue_calories} ккал</span>
+<span>[xfvalue_calories] ккал</span>
 </div>
 [/xfgiven_calories]
 </div>
